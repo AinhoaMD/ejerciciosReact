@@ -1,6 +1,5 @@
 import { useState } from "react";
 import './Tareas.css'
-import logo from '../assets/webp/logo.webp'
 import colada from '../assets/webp/hacer-colada.webp'
 import hermana from '../assets/webp/cuidar-hermana.webp'
 import perro from '../assets/webp/pasear-perro.webp'
@@ -60,8 +59,6 @@ export default function Tareas() {
 
     return (
         <>
-            <img src={logo} />
-
             <div className="tareas-container">
                 <div className="hacer-colada">
                     <img

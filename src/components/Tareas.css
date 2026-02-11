@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: "Fredoka";
     src: url("../../fonts/Fredoka.ttf") format("truetype");
     font-weight: 300 700;
@@ -21,9 +21,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
-body {
+/* body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@ body {
     font-family: "Fredoka", sans-serif;
     font-size: 2rem;
     background: var(--color-secondary);
-}
+} */
 
 .tareas-container,
 .botones-container {
@@ -44,11 +44,11 @@ body {
     gap: 5rem;
 }
 
-img {
+/* img {
     border-radius: 15px;
     width: 20rem;
     height: auto;
-}
+} */
 
 .tareas-container img {
     border: 3px solid var(--sinchan-red);
@@ -64,7 +64,7 @@ img {
     transition: filter 2s ease;
 }
 
-button {
+/* button {
     font-weight: bold;
     padding: 2rem 4rem;
     border: none;
@@ -72,4 +72,4 @@ button {
     cursor: pointer;
     background-color: var(--color-primary);
     color: var(--text-primary);
-}
+} */

@@ -6,6 +6,7 @@ import { Link, Routes, Route } from 'react-router-dom'
 import Home from './components/Home'
 import Formulario from './components/Formulario'
 import Parque from './components/Parque'
+import Tareas from './components/Tareas'
 
 function App() {
   // run with npm run dev
@@ -16,12 +17,14 @@ function App() {
         <Link to="/">Inicio</Link>
         <Link to="/formulario">Formulario</Link>
         <Link to="/parque">Parque</Link>
+        <Link to="/tareas">Tareas</Link>
       </nav>
 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/formulario" element={<Formulario />} />
         <Route path="/parque" element={<Parque />} />
+        <Route path="/tareas" element={<Tareas />} />
       </Routes>
     </>
   )
