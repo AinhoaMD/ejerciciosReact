@@ -1,4 +1,4 @@
-export default function formDate(date){
+export function formDate(date){
     const options = {
         weekday: "long",
         year: "numeric",
@@ -11,7 +11,7 @@ export default function formDate(date){
     return date.toLocaleString("es-ES", options)
 }
 
-export default function calcularDiferencia(horaActual, horaMerena){
+export function calcularDiferencia(horaActual, horaMerena){
     const diferencia = horaMerena - horaActual;
 
     if (diferencia <= 0) return null;

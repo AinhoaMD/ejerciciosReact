@@ -7,6 +7,7 @@ import Home from './components/Home'
 import Formulario from './components/Formulario'
 import Parque from './components/Parque'
 import Tareas from './components/Tareas'
+import Clock from './components/Clock'
 
 function App() {
   // run with npm run dev
@@ -18,6 +19,7 @@ function App() {
         <Link to="/formulario">Formulario</Link>
         <Link to="/parque">Parque</Link>
         <Link to="/tareas">Tareas</Link>
+        <Link to="/clock">Reloj</Link>
       </nav>
 
       <Routes>
@@ -25,6 +27,7 @@ function App() {
         <Route path="/formulario" element={<Formulario />} />
         <Route path="/parque" element={<Parque />} />
         <Route path="/tareas" element={<Tareas />} />
+        <Route path="/clock" element={<Clock />} />
       </Routes>
     </>
   )
